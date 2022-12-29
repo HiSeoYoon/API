@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: rest-api
+  profiles:
+    active: dev
+
+
+server:
+  port: 8089
+
+
+---
+
+spring:
+  application:
+    name: rest-api
+  profiles:
+    active: prod
+
+
+server:
+  port: 8089
